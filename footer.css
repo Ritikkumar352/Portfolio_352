@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.footer{
+    padding: 1%;
+    height: 20vh;
+    background-color: var(--main-color);
+}
+
+.outter_div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.upper_div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon_div{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.email_div{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.lower_div{
+    padding: 1%;
+    width: 56%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+.icon_div a{
+    background-color: green;
+    padding: 5px;
+}
+
+
+
+
+.icon{
+    height: 25px;
+    padding: 1px;
+    background-color: red;
+    border: solid 2px black;
+    border-radius: 50%;
+}
